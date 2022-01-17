@@ -16,7 +16,7 @@ public class Drawn : MonoBehaviour
         if (other.tag == "Enchy")
         {
             Debug.Log("Enchy touched");
-            Instantiate(explosion, transform.position, transform.rotation);
+             Instantiate(explosion, transform.position, transform.rotation);
             foreach (var effect in effects)
             {
                 effect.transform.parent = null;
