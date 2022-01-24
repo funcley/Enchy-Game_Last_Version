@@ -9,6 +9,10 @@ TagManager:
   - Laser
   - LaserBlock
   - LaserBlocker
+  - Level
+  - Step
+  - EnchyChild
+  - YouDied
   layers:
   - Default
   - TransparentFX
