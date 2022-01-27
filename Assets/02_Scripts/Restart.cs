@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
-using UnityEngine.UI;
 
 public class Restart : MonoBehaviour
 
@@ -38,7 +37,8 @@ public class Restart : MonoBehaviour
         scoreText.text = score.ToString();
     }*/
 
-    public string ScenetoPlay; 
+    public string SceneToPlay;
+
 
    public void RestartGame()
    {
@@ -46,16 +46,17 @@ public class Restart : MonoBehaviour
        SceneManager.LoadScene(scene.name);
 
    }
-   public void StartGame()
+   
+   public void PlayScene()
    {
-      
-       SceneManager.LoadScene(ScenetoPlay);
+       SceneManager.LoadScene(SceneToPlay);
 
    }
+
    public void QuitGame()
    {
        Application.Quit();
-       //UnityEditor.EditorApplication.isPlaying = false;
+       UnityEditor.EditorApplication.isPlaying = false;
    }
 
     

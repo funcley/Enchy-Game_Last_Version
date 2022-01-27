@@ -77,13 +77,13 @@ public class Drowning : MonoBehaviour
 
             IEnumerator LerpPosition(Vector3 targetPosition, float duration)
             {
-                
+                yield return new WaitForSeconds(8);
                 YouDied.SetActive(true);
                 SoundManager.Instance.PlaySound(SoundType.TypeYoulose);
                 yield return new WaitForSeconds(1);
-                Destroy(GameObject.FindWithTag("YouDied"));
+                //Destroy(GameObject.FindWithTag("YouDied"));
                 
-                yield return new WaitForSeconds(5);
+                yield return new WaitForSeconds(8);
                 scale = new Vector3(1f, 1f, 1f);
                 float time = 0;
                 while (time < duration)

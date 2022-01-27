@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/01_Scenes/art scene.unity
+    path: Assets/Scenes/art scene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
   - enabled: 1
-    path: Assets/01_Scenes/Level1.unity
+    path: Assets/01_Scenes/Kapak.unity
+    guid: 75a2aeea204d445eeba01387eb9030e0
+  - enabled: 1
+    path: Assets/01_Scenes/intro.unity
+    guid: 7af35f9e76c744c52a34fc2ea243209e
+  - enabled: 1
+    path: Assets/01_Scenes/Levels/Level1.unity
     guid: 74f64cd8b6e24434094216a1f289e19a
   m_configObjects: {}

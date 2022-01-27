@@ -978,7 +978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aa3a79a451e641db9389113d396e841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScenetoPlay: Scenes/Level1
+  SceneToPlay: 01_Scenes/Levels/Level1
 --- !u!4 &1441573222
 Transform:
   m_ObjectHideFlags: 0
@@ -1160,7 +1160,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1441573221}
         m_TargetAssemblyTypeName: Restart, Assembly-CSharp
-        m_MethodName: StartGame
+        m_MethodName: PlayScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
